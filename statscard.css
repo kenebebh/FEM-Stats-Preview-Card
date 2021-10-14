@@ -5,10 +5,14 @@
 }
 body{
     font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 #container{
     background-color: hsl(233, 47%, 7%);
+    width: 100%;
     padding: 2rem 1rem;
 }
 
@@ -79,14 +83,17 @@ body{
     font-weight: 600;
     font-size: 1.5rem;
 }
-.attribution{
-    height: 10px;
-}
 
+.attribution{
+   height: 10px;
+}
 /* Media queries for laptops */
 
 @media only screen and (min-width:815px){
     
+    #container{
+        height: 95vh;
+    }
     #main{
         display: grid;
         grid-template-rows: 1fr;
@@ -111,11 +118,12 @@ body{
         display: flex;
     }
     #heading{
-        margin: .5rem 0 0;
+        margin: .5rem 0 ;
     }
     .para{
-        font-size: .8rem;
+        font-size: .9rem;
         line-height: 1.3rem;
+        text-align: left;
     }
     .item{
         font-size: .8rem;
