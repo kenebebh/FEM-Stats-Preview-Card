@@ -9,11 +9,11 @@ body{
 
 #container{
     background-color: hsl(233, 47%, 7%);
-    padding: 1rem;
+    padding: 1.5rem 1rem;
 }
 
 #main{
-    width: 100%;
+    width: 97%;
     margin: 0 auto;
     background-color: hsl(244, 38%, 16%);
       border-top-left-radius: 20px;
@@ -53,7 +53,7 @@ body{
 
 .para{
     color: hsla(0, 0%, 100%, 0.5);
-    margin: 0 1.5rem 1rem;
+    margin: 0 1rem 1rem;
     line-height: 1.44rem;
     text-align: center;
     font-size: 1rem;
