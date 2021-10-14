@@ -79,6 +79,9 @@ body{
     font-weight: 600;
     font-size: 1.5rem;
 }
+.attribution{
+    height: 10px;
+    
 /* Media queries for laptops */
 
 @media only screen and (min-width:815px){
