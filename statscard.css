@@ -9,11 +9,11 @@ body{
 
 #container{
     background-color: hsl(233, 47%, 7%);
-    padding: 2rem;
+    padding: 1rem;
 }
 
 #main{
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     background-color: hsl(244, 38%, 16%);
       border-top-left-radius: 20px;
