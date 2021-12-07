@@ -36,6 +36,9 @@ body{
 
 #content{
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 /*The header*/
@@ -73,9 +76,10 @@ body{
 .item{
     display: flex;
     flex-direction: column;
-    margin: 1rem auto;
+    margin: 1rem;
     text-transform: uppercase;
     font-size: .9rem;
+    
 }
 
 .big{
@@ -105,9 +109,10 @@ body{
     #main{
         display: grid;
         grid-template-rows: 1fr;
-        grid-template-columns: 3fr 2.9fr;
+        grid-template-columns: 3fr 3fr;
         grid-template-areas: "content image";
         width: 94%;
+        height: 85vh
     }
     
     #content{
