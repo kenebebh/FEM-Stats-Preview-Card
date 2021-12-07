@@ -131,7 +131,7 @@ body{
         display: flex;
     }
     #heading{
-        margin: .5rem 0 ;
+        margin: 0 .5rem .7rem ;
         font-size: 1.7rem
     }
     .para{
@@ -142,4 +142,11 @@ body{
     .item{
         font-size: .8rem;
     }
+}
+
+/*Media queries for bigger laptops*/
+
+@media only screen and (min-width:1400px){
+    
+    
 }
